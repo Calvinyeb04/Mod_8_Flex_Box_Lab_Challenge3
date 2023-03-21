@@ -1,0 +1,29 @@
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+main ol{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+
+}
+
+
+
