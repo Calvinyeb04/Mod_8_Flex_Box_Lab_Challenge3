@@ -1,3 +1,7 @@
+/* Set the background color of the page */
+
+
+/* Style the nav element */
 nav {
   background-color: black;
 }
@@ -5,25 +9,55 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 0;
+  list-style: none;
   margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav li {
+  flex: 1 1 20%;
+  text-align: center;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  display: block;
 }
 
-
-main ol{
-    position: absolute;
-    top: 10px;
-    right: 20px;
-
-
+/* Style the main element */
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+/* Style the article element */
+article {
+  background-color: white;
+  box-sizing: border-box;
+  flex: 1 1 60%;
+  margin: 1.5em 2.52525% 0 2.0202%;
+  padding: 1em;
+}
 
+article img {
+  max-width: 100%;
+}
+
+/* Style the aside element */
+aside {
+  background-color: #ffebc6;
+  box-sizing: border-box;
+  flex: 1 1 40%;
+  margin: 1.5em 2.0202% 0 0;
+  max-width: 200px;
+  min-height: 180px;
+  padding: 2.0202%;
+}
+
+/* Style the footer element */
+footer {
+  background-color: #ffc0cb;
+}
 
